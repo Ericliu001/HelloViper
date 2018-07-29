@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43139146AE6CB68EC953DF72 /* HellowViperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43139D08136106ED4C79FFA6 /* HellowViperTests.swift */; };
+		431391E10B8DA6F9E7D25CA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 431399379F270A9D46A2400C /* Assets.xcassets */; };
+		43139359529E2547EF925255 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431399C57BE69B9E7E55CF58 /* ViewController.swift */; };
+		43139633C486B354AEDACA40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43139BD12BDCEB535DBF7211 /* AppDelegate.swift */; };
+		4313984F7F5DF27663793CB3 /* HellowViperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431394DC59B5FDC942C23BF8 /* HellowViperUITests.swift */; };
+		43139B86AE6E9325312A0543 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4313900835BFDBDA3F867719 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43139746F3067E17269B1ACB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43139D4B7B3C43D79147AC87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43139EBA66EC5442FF749C29;
+			remoteInfo = HellowViper;
+		};
+		43139E6925FF5D8DB932D217 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43139D4B7B3C43D79147AC87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43139EBA66EC5442FF749C29;
+			remoteInfo = HellowViper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		431392CFFA66B102A4103457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		431394DC59B5FDC942C23BF8 /* HellowViperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HellowViperUITests.swift; sourceTree = "<group>"; };
+		431396BF65D9342B3E960D9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		4313980806B1347362F146DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		4313981B3016EF1BA02706D6 /* HellowViperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HellowViperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		431398BE4E99CD60E5AC7B38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		431399379F270A9D46A2400C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		431399C57BE69B9E7E55CF58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		43139B64E29842C3C9FE08A3 /* HellowViperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HellowViperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43139BD12BDCEB535DBF7211 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		43139BE4F76DC979AD0FAEEA /* HellowViper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HellowViper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43139D08136106ED4C79FFA6 /* HellowViperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HellowViperTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43139381432458036D0E2D41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4313962BC52F936F0A3E3307 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		431399F0C494383E3ADEEA2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4313919544CC50B9DC6416FB /* HellowViperTests */ = {
+			isa = PBXGroup;
+			children = (
+				431392CFFA66B102A4103457 /* Info.plist */,
+				43139D08136106ED4C79FFA6 /* HellowViperTests.swift */,
+			);
+			path = HellowViperTests;
+			sourceTree = "<group>";
+		};
+		4313932C6C84A96B7BEB3C52 = {
+			isa = PBXGroup;
+			children = (
+				43139B890DFAA4763DF25E22 /* Products */,
+				431393D96A23AA65C030DA67 /* HellowViper */,
+				4313919544CC50B9DC6416FB /* HellowViperTests */,
+				43139D7C7139964B734F5D81 /* HellowViperUITests */,
+			);
+			sourceTree = "<group>";
+		};
+		431393D96A23AA65C030DA67 /* HellowViper */ = {
+			isa = PBXGroup;
+			children = (
+				431396BF65D9342B3E960D9D /* Info.plist */,
+				431399379F270A9D46A2400C /* Assets.xcassets */,
+				4313900835BFDBDA3F867719 /* LaunchScreen.storyboard */,
+				43139BD12BDCEB535DBF7211 /* AppDelegate.swift */,
+				431399C57BE69B9E7E55CF58 /* ViewController.swift */,
+			);
+			path = HellowViper;
+			sourceTree = "<group>";
+		};
+		43139B890DFAA4763DF25E22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43139BE4F76DC979AD0FAEEA /* HellowViper.app */,
+				43139B64E29842C3C9FE08A3 /* HellowViperTests.xctest */,
+				4313981B3016EF1BA02706D6 /* HellowViperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43139D7C7139964B734F5D81 /* HellowViperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4313980806B1347362F146DD /* Info.plist */,
+				431394DC59B5FDC942C23BF8 /* HellowViperUITests.swift */,
+			);
+			path = HellowViperUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		431396DE6822BC84087AA046 /* HellowViperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43139F7023799BE129658856 /* Build configuration list for PBXNativeTarget "HellowViperTests" */;
+			buildPhases = (
+				431391ED5BFB183D6E557CB2 /* Sources */,
+				431399F0C494383E3ADEEA2C /* Frameworks */,
+				43139D2072469B4F4446A578 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				431395EAF888F9B713DBB895 /* PBXTargetDependency */,
+			);
+			name = HellowViperTests;
+			productName = HellowViperTests;
+			productReference = 43139B64E29842C3C9FE08A3 /* HellowViperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		431399B477DB3A92A5BC9C8F /* HellowViperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43139279DA9DE1611E28F884 /* Build configuration list for PBXNativeTarget "HellowViperUITests" */;
+			buildPhases = (
+				43139AD6DAABCBF0AD95190B /* Sources */,
+				43139381432458036D0E2D41 /* Frameworks */,
+				43139BDFAE38175A1B8E0702 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43139644DB64F3FC2D98D8BC /* PBXTargetDependency */,
+			);
+			name = HellowViperUITests;
+			productName = HellowViperUITests;
+			productReference = 4313981B3016EF1BA02706D6 /* HellowViperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		43139EBA66EC5442FF749C29 /* HellowViper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4313976275ECD33019AC0947 /* Build configuration list for PBXNativeTarget "HellowViper" */;
+			buildPhases = (
+				431398F600F5ED7FC241AF78 /* Sources */,
+				4313962BC52F936F0A3E3307 /* Frameworks */,
+				43139ACC0E56A78A651FAAEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HellowViper;
+			productName = HellowViper;
+			productReference = 43139BE4F76DC979AD0FAEEA /* HellowViper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43139D4B7B3C43D79147AC87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = eric.liu;
+				TargetAttributes = {
+					431396DE6822BC84087AA046 = {
+						DevelopmentTeam = 8NH2QZVYM5;
+					};
+					431399B477DB3A92A5BC9C8F = {
+						DevelopmentTeam = 8NH2QZVYM5;
+					};
+					43139EBA66EC5442FF749C29 = {
+						DevelopmentTeam = 8NH2QZVYM5;
+					};
+				};
+			};
+			buildConfigurationList = 43139C92D02C6A8B6D0B7598 /* Build configuration list for PBXProject "HellowViper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4313932C6C84A96B7BEB3C52;
+			productRefGroup = 43139B890DFAA4763DF25E22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43139EBA66EC5442FF749C29 /* HellowViper */,
+				431396DE6822BC84087AA046 /* HellowViperTests */,
+				431399B477DB3A92A5BC9C8F /* HellowViperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43139ACC0E56A78A651FAAEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				431391E10B8DA6F9E7D25CA2 /* Assets.xcassets in Resources */,
+				43139B86AE6E9325312A0543 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43139BDFAE38175A1B8E0702 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43139D2072469B4F4446A578 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		431391ED5BFB183D6E557CB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43139146AE6CB68EC953DF72 /* HellowViperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		431398F600F5ED7FC241AF78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43139633C486B354AEDACA40 /* AppDelegate.swift in Sources */,
+				43139359529E2547EF925255 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43139AD6DAABCBF0AD95190B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4313984F7F5DF27663793CB3 /* HellowViperUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		431395EAF888F9B713DBB895 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43139EBA66EC5442FF749C29 /* HellowViper */;
+			targetProxy = 43139746F3067E17269B1ACB /* PBXContainerItemProxy */;
+		};
+		43139644DB64F3FC2D98D8BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43139EBA66EC5442FF749C29 /* HellowViper */;
+			targetProxy = 43139E6925FF5D8DB932D217 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4313900835BFDBDA3F867719 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				431398BE4E99CD60E5AC7B38 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43139127E2DFCE924C1A64B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HellowViper.app/HellowViper";
+				DEVELOPMENT_TEAM = 8NH2QZVYM5;
+				INFOPLIST_FILE = HellowViperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericliu.developer.HellowViperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		431391BCCBAC0476D6697DCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43139298FA24A34583F6EF3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HellowViper.app/HellowViper";
+				DEVELOPMENT_TEAM = 8NH2QZVYM5;
+				INFOPLIST_FILE = HellowViperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericliu.developer.HellowViperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		431394566A19AF299573297A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8NH2QZVYM5;
+				INFOPLIST_FILE = HellowViperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericliu.developer.HellowViperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HellowViper;
+			};
+			name = Debug;
+		};
+		4313965FFF5772FD185DA8B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8NH2QZVYM5;
+				INFOPLIST_FILE = HellowViper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericliu.developer.HellowViper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4313976976FBEE385C9313E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		43139941413233147B0C0AFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8NH2QZVYM5;
+				INFOPLIST_FILE = HellowViper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericliu.developer.HellowViper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		43139C47E0C16EE356F41DE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8NH2QZVYM5;
+				INFOPLIST_FILE = HellowViperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericliu.developer.HellowViperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HellowViper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43139279DA9DE1611E28F884 /* Build configuration list for PBXNativeTarget "HellowViperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				431394566A19AF299573297A /* Debug */,
+				43139C47E0C16EE356F41DE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4313976275ECD33019AC0947 /* Build configuration list for PBXNativeTarget "HellowViper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4313965FFF5772FD185DA8B7 /* Debug */,
+				43139941413233147B0C0AFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43139C92D02C6A8B6D0B7598 /* Build configuration list for PBXProject "HellowViper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4313976976FBEE385C9313E5 /* Debug */,
+				431391BCCBAC0476D6697DCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43139F7023799BE129658856 /* Build configuration list for PBXNativeTarget "HellowViperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43139127E2DFCE924C1A64B5 /* Debug */,
+				43139298FA24A34583F6EF3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43139D4B7B3C43D79147AC87 /* Project object */;
+}
