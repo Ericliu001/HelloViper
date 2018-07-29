@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		43139146AE6CB68EC953DF72 /* HellowViperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43139D08136106ED4C79FFA6 /* HellowViperTests.swift */; };
-		431391E10B8DA6F9E7D25CA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 431399379F270A9D46A2400C /* Assets.xcassets */; };
 		43139359529E2547EF925255 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431399C57BE69B9E7E55CF58 /* ViewController.swift */; };
 		43139633C486B354AEDACA40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43139BD12BDCEB535DBF7211 /* AppDelegate.swift */; };
 		4313984F7F5DF27663793CB3 /* HellowViperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431394DC59B5FDC942C23BF8 /* HellowViperUITests.swift */; };
-		43139B86AE6E9325312A0543 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4313900835BFDBDA3F867719 /* LaunchScreen.storyboard */; };
+		4313995AD5DB7D4579DC7174 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 431392C6CA57EFBC4487366B /* Assets.xcassets */; };
+		43139EEFA6949D2A5BD0D42C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 431396D0D46A42993F0F2054 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,13 +33,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4313910EB497E51764C5A003 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		431392C6CA57EFBC4487366B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		431392CFFA66B102A4103457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		431394DC59B5FDC942C23BF8 /* HellowViperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HellowViperUITests.swift; sourceTree = "<group>"; };
-		431396BF65D9342B3E960D9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		431396D0D46A42993F0F2054 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4313980806B1347362F146DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		4313981B3016EF1BA02706D6 /* HellowViperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HellowViperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		431398BE4E99CD60E5AC7B38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		431399379F270A9D46A2400C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		431399C57BE69B9E7E55CF58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		43139B64E29842C3C9FE08A3 /* HellowViperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HellowViperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43139BD12BDCEB535DBF7211 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -94,13 +94,21 @@
 		431393D96A23AA65C030DA67 /* HellowViper */ = {
 			isa = PBXGroup;
 			children = (
-				431396BF65D9342B3E960D9D /* Info.plist */,
-				431399379F270A9D46A2400C /* Assets.xcassets */,
-				4313900835BFDBDA3F867719 /* LaunchScreen.storyboard */,
 				43139BD12BDCEB535DBF7211 /* AppDelegate.swift */,
 				431399C57BE69B9E7E55CF58 /* ViewController.swift */,
+				4313965A7A0D2A5A93A1D89E /* Assets */,
 			);
 			path = HellowViper;
+			sourceTree = "<group>";
+		};
+		4313965A7A0D2A5A93A1D89E /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				431392C6CA57EFBC4487366B /* Assets.xcassets */,
+				4313910EB497E51764C5A003 /* Info.plist */,
+				431396D0D46A42993F0F2054 /* LaunchScreen.storyboard */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		43139B890DFAA4763DF25E22 /* Products */ = {
@@ -221,8 +229,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				431391E10B8DA6F9E7D25CA2 /* Assets.xcassets in Resources */,
-				43139B86AE6E9325312A0543 /* LaunchScreen.storyboard in Resources */,
+				4313995AD5DB7D4579DC7174 /* Assets.xcassets in Resources */,
+				43139EEFA6949D2A5BD0D42C /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,17 +290,6 @@
 			targetProxy = 43139E6925FF5D8DB932D217 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		4313900835BFDBDA3F867719 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				431398BE4E99CD60E5AC7B38 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		43139127E2DFCE924C1A64B5 /* Debug */ = {
@@ -397,7 +394,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8NH2QZVYM5;
-				INFOPLIST_FILE = HellowViper/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/HellowViper/Assets/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ericliu.developer.HellowViper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -471,7 +468,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8NH2QZVYM5;
-				INFOPLIST_FILE = HellowViper/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/HellowViper/Assets/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ericliu.developer.HellowViper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
