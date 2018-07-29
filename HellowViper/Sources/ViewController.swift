@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
 
-//        self.present(AppDefaultBuilder().main(), animated: false, completion: nil)
+        self.present(AppDefaultBuilder().main(), animated: false, completion: nil)
     }
 
     override func didReceiveMemoryWarning() {
