@@ -32,6 +32,7 @@ class ListDefaultViewController: UIViewController, ListViewController {
         super.loadView()
 
         let tableView = UITableView()
+        tableView.translatesAutoresizingMaskIntoConstraints = false
         self.tableView = tableView
         self.view.addSubview(tableView)
 
@@ -45,5 +46,22 @@ class ListDefaultViewController: UIViewController, ListViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        self.tableView?.dataSource = self
+        self.tableView?.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
+    }
+}
+
+
+extension ListDefaultViewController: UITableViewDataSource {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 10
+    }
+
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        cell.textLabel?.text = "Item \(indexPath.item)"
+
+        return cell
     }
 }
