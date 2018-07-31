@@ -48,7 +48,10 @@ class ListDefaultViewController: UIViewController, ListViewController {
         super.viewDidLoad()
 
         self.tableView?.dataSource = self
+        self.tableView?.delegate = self
         self.tableView?.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
+
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: nil)
     }
 }
 
@@ -63,5 +66,13 @@ extension ListDefaultViewController: UITableViewDataSource {
         cell.textLabel?.text = "Item \(indexPath.item)"
 
         return cell
+    }
+}
+
+extension ListDefaultViewController: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+
+        self.presenter?.didSelect(index: indexPath.item)
     }
 }

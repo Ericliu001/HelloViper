@@ -11,6 +11,7 @@ protocol ListPresenter: AnyObject {
     var interactor: ListInteractor? {get set}
 
     var view: ListViewController? {get set}
+    func didSelect(index: Int)
 }
 
 
@@ -18,4 +19,8 @@ class ListDefaultPresenter: ListPresenter {
     var router: ListRouter? = nil
     var interactor: ListInteractor? = nil
     var view: ListViewController? = nil
+
+    func didSelect(index: Int) {
+
+    }
 }
