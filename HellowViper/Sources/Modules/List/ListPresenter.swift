@@ -9,18 +9,18 @@ import Foundation
 protocol ListPresenter: AnyObject {
     var router: ListRouter? {get set}
     var interactor: ListInteractor? {get set}
-
     var view: ListViewController? {get set}
+
     func didSelect(index: Int)
 }
 
 
-class ListDefaultPresenter: ListPresenter {
+class ListPresenterImpl: ListPresenter {
     var router: ListRouter? = nil
     var interactor: ListInteractor? = nil
     var view: ListViewController? = nil
 
     func didSelect(index: Int) {
-
+        self.router?.route(for: index)
     }
 }

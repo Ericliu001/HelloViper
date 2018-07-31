@@ -139,6 +139,7 @@
 			children = (
 				43139D3647674AD8C925D9AA /* App */,
 				431393951B96732ED04B340A /* List */,
+				4313975E747C418AC5F97B74 /* Detail */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -163,6 +164,13 @@
 				43139288ECBC78C186E5E867 /* AppViewController.swift */,
 			);
 			path = interfaces;
+			sourceTree = "<group>";
+		};
+		4313975E747C418AC5F97B74 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Detail;
 			sourceTree = "<group>";
 		};
 		43139A52FCE22E230E54CCC5 /* Default */ = {

@@ -11,7 +11,7 @@ protocol ListViewController: class {
     var presenter: ListPresenter? { get set }
 }
 
-class ListDefaultViewController: UIViewController, ListViewController {
+class ListViewControllerImpl: UIViewController, ListViewController {
 
     var presenter: ListPresenter?
 
@@ -56,7 +56,7 @@ class ListDefaultViewController: UIViewController, ListViewController {
 }
 
 
-extension ListDefaultViewController: UITableViewDataSource {
+extension ListViewControllerImpl: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 10
     }
@@ -69,7 +69,7 @@ extension ListDefaultViewController: UITableViewDataSource {
     }
 }
 
-extension ListDefaultViewController: UITableViewDelegate {
+extension ListViewControllerImpl: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
 

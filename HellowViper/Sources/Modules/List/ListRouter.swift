@@ -8,9 +8,16 @@ import Foundation
 
 protocol ListRouter: AnyObject {
 
+    var presenter: ListPresenter? {get set}
+
+    func route(for: Int)
 }
 
 
-class ListDefaultRouter: ListRouter {
+class ListRouterImpl: ListRouter {
+    var presenter: ListPresenter? = nil
 
+    func route(for: Int) {
+
+    }
 }

@@ -7,11 +7,11 @@ import Foundation
 
 
 protocol ListInteractor: AnyObject {
-
+    var presenter: ListPresenter? {get set}
 }
 
 
 
-class ListDefaultInteractor: ListInteractor {
-
+class ListInteractorImpl: ListInteractor {
+    var presenter: ListPresenter?
 }

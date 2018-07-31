@@ -8,7 +8,19 @@ import UIKit
 
 class ListBuilder: AppBuilder {
     func main() -> UIViewController {
-        let view = ListDefaultViewController()
+        let view = ListViewControllerImpl()
+        let interactor = ListInteractorImpl()
+        let router = ListRouterImpl()
+        let presenter = ListPresenterImpl()
+
+        view.presenter = presenter
+        interactor.presenter = presenter
+        router.presenter = presenter
+
+        presenter.view = view
+        presenter.interactor = interactor
+        presenter.router = router
+
 
         let controller = UINavigationController(rootViewController: view)
         return controller
