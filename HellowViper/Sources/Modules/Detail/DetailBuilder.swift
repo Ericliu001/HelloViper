@@ -8,6 +8,8 @@ import UIKit
 
 class DetailBuilder: AppBuilder {
     func main() -> UIViewController {
-        fatalError("main() has not been implemented")
+        let view = DetailViewControllerImpl()
+
+        return view
     }
 }

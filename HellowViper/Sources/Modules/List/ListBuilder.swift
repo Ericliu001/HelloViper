@@ -21,6 +21,7 @@ class ListBuilder: AppBuilder {
         presenter.interactor = interactor
         presenter.router = router
 
+        router.viewController = view
 
         let controller = UINavigationController(rootViewController: view)
         return controller
