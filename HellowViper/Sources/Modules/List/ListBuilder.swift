@@ -24,6 +24,7 @@ class ListBuilder: AppBuilder {
         router.viewController = view
 
         let controller = UINavigationController(rootViewController: view)
+        controller.tabBarItem = UITabBarItem(tabBarSystemItem: .topRated, tag: 1)
         return controller
     }
 }
