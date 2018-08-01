@@ -4,6 +4,7 @@
 //
 
 import Foundation
+import UIKit
 
 protocol DetailRouter: AnyObject {
     var presenter: DetailPresenter? { get set }
@@ -11,5 +12,6 @@ protocol DetailRouter: AnyObject {
 
 
 class DetailRouterImpl: DetailRouter {
-    var presenter: DetailPresenter?
+    weak var presenter: DetailPresenter?
+    weak var viewController: UIViewController?
 }

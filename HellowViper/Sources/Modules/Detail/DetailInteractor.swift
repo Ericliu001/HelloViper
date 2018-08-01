@@ -11,5 +11,5 @@ protocol DetailInteractor: AnyObject {
 }
 
 class DetailInteractorImpl: DetailInteractor {
-    var presenter: DetailPresenter?
+   weak var presenter: DetailPresenter?
 }

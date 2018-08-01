@@ -9,16 +9,16 @@ import UIKit
 
 protocol ListRouter: AnyObject {
 
-    var presenter: ListPresenter? {get set}
-    var viewController: UIViewController? {get set}
+    var presenter: ListPresenter? { get set }
+    var viewController: UIViewController? { get set }
 
     func route(for: Int)
 }
 
 
 class ListRouterImpl: ListRouter {
-    var presenter: ListPresenter?
-    var viewController: UIViewController?
+    weak var presenter: ListPresenter?
+    weak var viewController: UIViewController?
 
     func route(for: Int) {
         let detailViewController = DetailBuilder().main()

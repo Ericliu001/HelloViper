@@ -18,7 +18,7 @@ protocol ListPresenter: AnyObject {
 class ListPresenterImpl: ListPresenter {
     var router: ListRouter? = nil
     var interactor: ListInteractor? = nil
-    var view: ListViewController? = nil
+    weak var view: ListViewController? = nil
 
     func didSelect(index: Int) {
         self.router?.route(for: index)

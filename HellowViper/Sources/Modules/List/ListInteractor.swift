@@ -13,5 +13,5 @@ protocol ListInteractor: AnyObject {
 
 
 class ListInteractorImpl: ListInteractor {
-    var presenter: ListPresenter?
+    weak var presenter: ListPresenter?
 }
